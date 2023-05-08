@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" type="image/png" href="assets/imagens/goku_ico.png">
+    <title>Portifólio da Lais Faustino</title>
+</head>
+<body>
+    <!--Menu da Página-->
+    <nav>
+        <!--Logo + Texto á esquerda do Menu-->
+        <div>
+            <img src="assets/imagens/goku_ico.png" alt="Logo da página - Goku">
+            <span>Portifólio da Lais</span>
+        </div>
+        <!--Opções do Menu utilizando Marcadores não ordenados (simbolicos)-->
+        <ul>
+            <a href="index.html">
+            <li>Home</li>
+            </a>
+            <a href="contato.html">
+                <li>Contato</li>
+            </a>
+        </ul>
+    </nav>
+
+    <!--Conteúdo da Página-->
+    <main>
+        <section>
+        <form>
+            <h2>Contato</h2>
+            <div>
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text" placeholder="Insira o seu nome completo">
+                <div id="txtNome"></div>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input id="email" type="text" placeholder="Insira o seu E-mail">
+                <div id="txtEmail"></div>
+            </div>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" type="text"  rows="8" placeholder="Insira uma mensagem..."></textarea>
+                <div id="txtMensagem"></div>
+                <button type=""button>
+                    Enviar
+                </button>
+            </div>
+        </form>
+    <form>
+        <section>
+            <form>
+                <h2>Não sabe seu endereço?</h2>
+                <label for="buscacep">Digite o seu CEP:</label>
+                <input id="buscacep" type="text" placeholder="Insira o seu CEP">
+                <div id="txtbuscacep"></div>
+                <button type=""button onclick="consultarCEP()">
+                    Consultar
+                </button>
+                <hr> </hr>
+            </div>
+                <div>
+                    <label for="endereco">Endereço:</label>
+                    <textarea id="endereco" type="text"  rows="7" placeholder="Busca CEP"></textarea>
+                    <div id="txtendereco"></div>
+    </section>
+    </form>
+    </main>
+
+    <!--Rodapé da Página-->
+    <footer>
+        <div>
+            <a href="https://linkdin.com/laisfaustino" target="_blank">
+                <img src="assets/imagens/linkedin.png" alt="Linkdin">
+        </a>
+        <a href="https://www.linkedin.com/in/lais-rodrigues-faustino-gomes" target="_blank">
+            <img src="assets/imagens/github.png" alt="GitHub">
+        </a> 
+         <a href="https://www.instagram.com" target="_blank">  
+            <img src="assets/imagens/instagram.png" alt="Instagram">
+        </a>
+        </div>
+        <p>Desenvolvido por: Lais Faustino - 2023 &copy;</p>
+    </footer>
+    
+</body>
+</html>
